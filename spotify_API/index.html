@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>My Music</title>
+</head>
+<body>
+    <div class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/kelly_roland_like_this.png" alt="Like This(feat. Eve)" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/bey_cuff_it.jpeg" alt="CUFF IT Beyoncé" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/cb_under_the_influence.jpeg" alt="Under The Influence Chris Brown" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/skate_silk_sonic.jpeg" alt="Skate Bruno Mars, Anderson .Paak, Silk Sonic" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/john_legend_all_of_me.jpeg" alt="All of Me John" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/james_authur_impossible.jpeg" alt="Impossible James Arthur" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--7" id="fig7" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/zayn_pillowtalk.jpeg" alt="PILLOWTALK ZAYN" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--8" id="fig8" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/durand_bernar_stuck.jpeg" alt="Stuck. Durand Bernarr, Ari Lennox" class="gallery__img">
+            </figure>
+        </div>
+        <div class="buttoncontain">
+            <button onclick="stopSnippet()">Stop Song</button>
+        </div>
+    </div>
+</body>
+</html>
